@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <title>Main Page</title>
+</head>
+
+<body>
+    <!-- Menu Bar  -->
+    <nav class="navbar bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html"><svg class="svg-icons" id="home" width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.63867 15.3219L20.6387 3.65527L35.6387 15.3219V33.6553C35.6387 34.5393 35.2875 35.3872 34.6624 36.0123C34.0372 36.6374 33.1894 36.9886 32.3053 36.9886H8.97201C8.08795 36.9886 7.2401 36.6374 6.61498 36.0123C5.98986 35.3872 5.63867 34.5393 5.63867 33.6553V15.3219Z" stroke="#808080" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M15.6387 36.9889V20.3223H25.6387V36.9889" stroke="#808080" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+            <a class="navbar-brand" href="#"><svg id="bell" class="svg-icons" width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M30.6387 13.6553C30.6387 11.0031 29.5851 8.45957 27.7097 6.58421C25.8344 4.70884 23.2908 3.65527 20.6387 3.65527C17.9865 3.65527 15.443 4.70884 13.5676 6.58421C11.6922 8.45957 10.6387 11.0031 10.6387 13.6553C10.6387 25.3219 5.63867 28.6553 5.63867 28.6553H35.6387C35.6387 28.6553 30.6387 25.3219 30.6387 13.6553Z" stroke="#808080"  stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M23.522 35.3223C23.229 35.8274 22.8084 36.2467 22.3024 36.5381C21.7964 36.8296 21.2227 36.983 20.6387 36.983C20.0547 36.983 19.481 36.8296 18.975 36.5381C18.469 36.2467 18.0484 35.8274 17.7554 35.3223" stroke="#808080"  stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                
+            </a>
+            <a class="navbar-brand" href="#"><svg id="plus" class="svg-icons" width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20.6388 36.9886C29.8436 36.9886 37.3055 29.5267 37.3055 20.3219C37.3055 11.1172 29.8436 3.65527 20.6388 3.65527C11.4341 3.65527 3.97217 11.1172 3.97217 20.3219C3.97217 29.5267 11.4341 36.9886 20.6388 36.9886Z" stroke="#808080" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M20.6387 13.6553V26.9886" stroke="#808080" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M13.9722 20.3223H27.3055" stroke="#808080" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+            <a class="navbar-brand" href="#"><svg class="svg-icons" id="message" width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M35.6387 25.3223C35.6387 26.2063 35.2875 27.0542 34.6624 27.6793C34.0372 28.3044 33.1894 28.6556 32.3053 28.6556H12.3053L5.63867 35.3223V8.6556C5.63867 7.77154 5.98986 6.9237 6.61498 6.29858C7.2401 5.67345 8.08795 5.32227 8.97201 5.32227H32.3053C33.1894 5.32227 34.0372 5.67345 34.6624 6.29858C35.2875 6.9237 35.6387 7.77154 35.6387 8.6556V25.3223Z" stroke="#808080"  stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+            <a class="navbar-brand" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                aria-controls="offcanvasExample"><svg id="user" class="svg-icons" width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M33.9718 35.3223V31.9889C33.9718 30.2208 33.2695 28.5251 32.0192 27.2749C30.769 26.0246 29.0733 25.3223 27.3052 25.3223H13.9718C12.2037 25.3223 10.508 26.0246 9.2578 27.2749C8.00755 28.5251 7.30518 30.2208 7.30518 31.9889V35.3223" stroke="#808080"  stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20.6388 18.6556C24.3207 18.6556 27.3055 15.6708 27.3055 11.9889C27.3055 8.30703 24.3207 5.32227 20.6388 5.32227C16.9569 5.32227 13.9722 8.30703 13.9722 11.9889C13.9722 15.6708 16.9569 18.6556 20.6388 18.6556Z" stroke="#808080"  stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- First Section -->
+        <section class="first-section">
+            <div class="container-lg box-profile-pic">
+                <img src="./img/profile-girl-beach.png" class="img-fluid img-profile" alt="profile-girl-beach">
+                <img class="img-fluid img-round-pic" src="./img/rounded-profile-pic.png" alt="profile-round-pricture">
+            </div>
+            <div class="text-center box-name">
+                <p>Nikki Rose</p>
+            </div>
+        </section>
+        <!-- Second Section -->
+
+        <section class="second-section">
+
+        </section>
+    </main>
+
+    <!-- Modal Window of Users -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h3 class="offcanvas-title" id="offcanvasExampleLabel">Profiles Page</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div>
+                <h4>User List:</h4>
+                <ul class="user-list" id="userList"></ul>
+            </div>
+            <div id="postContainer"></div>
+        </div>
+    </div>
+    <!-- End of Modal Window -->
+
+    <script src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
